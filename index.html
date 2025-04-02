@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 40px;
+        }
+        .card {
+            background: #111;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 10px 0;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .title {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title" data-aos="fade-down">SERVICES</h1>
+        <div class="card" data-aos="fade-up" data-aos-delay="100">
+            <h2>Servizio 1</h2>
+            <p>Descrizione del servizio 1.</p>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
+            <h2>Servizio 2</h2>
+            <p>Descrizione del servizio 2.</p>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="300">
+            <h2>Servizio 3</h2>
+            <p>Descrizione del servizio 3.</p>
+        </div>
+    </div>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
